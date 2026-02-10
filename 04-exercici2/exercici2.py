@@ -9,7 +9,7 @@ def valida_email(email: str) -> bool:
     Exemple: valida_email("usuari@domini.com") -> True
     Exemple: valida_email("usuari@domini") -> False
     """
-    ...
+    pass
 
 
 def aplana_llista(llista: list[list[int]]) -> list[int]:
@@ -17,7 +17,7 @@ def aplana_llista(llista: list[list[int]]) -> list[int]:
     Converteix una llista de llistes en una llista plana.
     Exemple: aplana_llista([[1, 2], [3, 4, 5], [6]]) -> [1, 2, 3, 4, 5, 6]
     """
-    ...
+    pass
 
 
 def troba_duplicats(llista: list[int]) -> set[int]:
@@ -26,7 +26,7 @@ def troba_duplicats(llista: list[int]) -> set[int]:
     Exemple: troba_duplicats([1, 2, 3, 2, 4, 3, 5]) -> {2, 3}
     Exemple: troba_duplicats([1, 2, 3]) -> set()
     """
-    ...
+    pass
 
 
 def ordena_per_frequencia(paraules: list[str]) -> list[tuple[str, int]]:
@@ -36,7 +36,7 @@ def ordena_per_frequencia(paraules: list[str]) -> list[tuple[str, int]]:
     Exemple: ordena_per_frequencia(["gat", "gos", "gat", "ocell", "gos", "gat"])
              -> [("gat", 3), ("gos", 2), ("ocell", 1)]
     """
-    ...
+    pass
 
 
 def transforma_text(text: str, transformacio: Callable[[str], str]) -> str:
@@ -46,7 +46,7 @@ def transforma_text(text: str, transformacio: Callable[[str], str]) -> str:
     Exemple: transforma_text("hola món", str.upper) -> "HOLA MÓN"
     Exemple: transforma_text("hola món", lambda x: x[::-1]) -> "aloh nóm"
     """
-    ...
+    pass
 
 
 def interseccio_diccionaris(d1: dict[str, int], d2: dict[str, int]) -> dict[str, int]:
@@ -56,7 +56,7 @@ def interseccio_diccionaris(d1: dict[str, int], d2: dict[str, int]) -> dict[str,
     Exemple: interseccio_diccionaris({"a": 5, "b": 3, "c": 8}, {"b": 7, "c": 2, "d": 1})
              -> {"b": 3, "c": 2}
     """
-    ...
+    pass
 
 
 def troba_subcadena_mes_llarga(s1: str, s2: str) -> str:
@@ -66,7 +66,7 @@ def troba_subcadena_mes_llarga(s1: str, s2: str) -> str:
     Exemple: troba_subcadena_mes_llarga("abcdef", "xbcde") -> "bcde"
     Exemple: troba_subcadena_mes_llarga("hola", "adeu") -> "a"
     """
-    ...
+    pass
 
 
 def descodifica_run_length(text: str) -> str:
@@ -76,4 +76,4 @@ def descodifica_run_length(text: str) -> str:
     Exemple: descodifica_run_length("3a2b1c") -> "aaabbc"
     Exemple: descodifica_run_length("1h4o2l1a") -> "hhoooola"
     """
-    ...
+    pass
